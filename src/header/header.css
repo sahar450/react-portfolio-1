@@ -1,0 +1,62 @@
+.sd{
+    position: sticky;
+    top: 0px;
+}
+.minbox{
+    background: linear-gradient(135deg, #1c0838, #1d1c44);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+.menu{
+    display: flex;
+}
+h1{
+    color: #ffffff !important;
+}
+ul li{
+    list-style-type: none;
+    color: #ffffff;
+    padding: 16px;
+    transition: all  100s linear 1s;
+}
+.menures{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5);
+    direction: ltr;
+    height: 100vh;
+    list-style-type: none;
+   top: 40px;
+   z-index: 100000;
+
+}
+.menu-btn{
+    display: none;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+a:hover{
+    color: palegoldenrod !important;
+}
+.searchinpu{
+    background: linear-gradient(135deg, #1c0838, #1d1c44);
+    border: 2px solid rgba(129, 76, 236, 0.15);
+    color: white;
+}
+@media only screen and (max-width: 780px) {
+    .menu{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .searchinpu{
+        display: none;
+    }
+} 
