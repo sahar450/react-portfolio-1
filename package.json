@@ -11,13 +11,13 @@
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,10 +40,6 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
-"homepage": "https://github.com/sahar450/react-portfolio-1"
+ "homepage": "https://sahar450.github.io/react-portfolio-1"
 
 }
